@@ -27,6 +27,7 @@ class FragmentOne : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         main_recyclerview.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
+        main_recyclerview.addItemDecoration(MyItemDecoration(30))
 
         adapter = MainRecyclerAdapter()
         main_recyclerview.adapter  = adapter
