@@ -43,8 +43,11 @@
         outRect.top = index
     }
    ```
+  - ```
+    main_recyclerview.addItemDecoration(MyItemDecoration(x))
+    ```
   - 위와 같이 RecyclerView.ItemDecoration을 상속받고 getItemOffsets의 outRect의 top,bottom,left,right 속성을 이용하여 아이템에
-  여백을 줄 수 있다 아래 예시는 상단 여백만을 조정한 예시이다
+  여백을 x만큼 줄 수 있다 아래 예시는 상단 여백만을 조정한 예시이다
   - <br/> <img width="200" src ="https://user-images.githubusercontent.com/46626421/81382754-d7f4b480-9149-11ea-8806-9c6b9718b771.png">
 
 
