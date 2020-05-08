@@ -24,7 +24,7 @@
         android:state_checked="true" />
     </selector>
     ```
-    위와같이 Selector를 적용하여 View의 state에 따라 색상등을 다르게 설정해 줄 수 있다
+    위와같이 Selector를 적용하여 View의 state에 따라 색상등을 다르게 설정해 줄 수 있다.
     
     
   
