@@ -8,6 +8,8 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent">
@@ -49,5 +51,8 @@
         app:itemIconTint="@color/bottom_selector"
         app:itemTextColor="@color/bottom_selector"
         android:background="@color/colorPrimaryDark"/>
+=======
+
+>>>>>>> 13f40e48982b925e35aa271aa7e2be3d5e8e4762
 
 </androidx.constraintlayout.widget.ConstraintLayout>
