@@ -1,12 +1,11 @@
-package com.example.myfirstapp
+package com.example.myfirstapp.main
 
-import android.app.Activity
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
 import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.EditText
+import com.example.myfirstapp.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,7 +17,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        vp_main.adapter = MainViewPagerAdapter(supportFragmentManager)
+        vp_main.adapter =
+            MainViewPagerAdapter(
+                supportFragmentManager
+            )
         vp_main.offscreenPageLimit = 2
         vp_main.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(state: Int) {

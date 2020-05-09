@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LoginActivity">
+        tools:context=".login.LoginActivity">
     <ImageView android:layout_height="115dp" android:layout_width="278dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="100dp"
@@ -12,17 +12,17 @@
 
     <EditText android:layout_height="wrap_content" android:layout_width="0dp"
             app:layout_constraintEnd_toEndOf="@+id/imageView" app:layout_constraintStart_toStartOf="@+id/imageView"
-            android:layout_marginTop="30dp" android:id="@+id/et_email" android:hint="아이디를 입력하세요"
+            android:layout_marginTop="30dp" android:id="@+id/et_id" android:hint="아이디를 입력하세요"
             app:layout_constraintTop_toBottomOf="@+id/imageView" android:inputType="text"/>
 
     <EditText android:layout_height="wrap_content" android:layout_width="0dp"
-            app:layout_constraintEnd_toEndOf="@+id/et_email" app:layout_constraintStart_toStartOf="@+id/et_email"
+            app:layout_constraintEnd_toEndOf="@+id/et_id" app:layout_constraintStart_toStartOf="@+id/et_id"
             android:layout_marginTop="30dp" android:id="@+id/et_pw" android:hint="비밀번호를 입력하세요"
-            app:layout_constraintTop_toBottomOf="@+id/et_email"
+            app:layout_constraintTop_toBottomOf="@+id/et_id"
             android:inputType="textPassword"/>
 
     <Button android:layout_height="wrap_content" android:layout_width="0dp"
-            app:layout_constraintEnd_toEndOf="@+id/et_email" app:layout_constraintStart_toStartOf="@+id/et_email"
+            app:layout_constraintEnd_toEndOf="@+id/et_id" app:layout_constraintStart_toStartOf="@+id/et_id"
             android:layout_marginTop="30dp" android:id="@+id/btn_login"
             app:layout_constraintTop_toBottomOf="@+id/et_pw" android:text="로그인"/>
 

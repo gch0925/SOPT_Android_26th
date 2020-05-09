@@ -1,4 +1,4 @@
-package com.example.myfirstapp
+package com.example.myfirstapp.data
 
 data class AData (
     val text_top : String,
