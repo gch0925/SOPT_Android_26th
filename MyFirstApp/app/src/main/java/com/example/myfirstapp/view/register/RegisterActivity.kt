@@ -1,4 +1,4 @@
-package com.example.myfirstapp.register
+package com.example.myfirstapp.view.register
 
 import android.app.Activity
 import android.content.Intent
